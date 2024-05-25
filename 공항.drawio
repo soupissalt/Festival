@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-25T12:39:06.135Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="q3qZGq1ujIi7-ko0SdVs" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-25T12:41:28.630Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="r5WGc9YAC-rOxTkuiPpq" version="24.4.8" type="github">
   <diagram name="페이지-1" id="geKBbEWEFcXSWuYg8slL">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,6 +14,15 @@
         </mxCell>
         <mxCell id="ENQD_48EzkkRwFqRb7_J-1" value="항공사" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="360" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bIkwEAlEce-EOL9KC1O9-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ENQD_48EzkkRwFqRb7_J-2" target="bIkwEAlEce-EOL9KC1O9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bIkwEAlEce-EOL9KC1O9-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ENQD_48EzkkRwFqRb7_J-2" target="bIkwEAlEce-EOL9KC1O9-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bIkwEAlEce-EOL9KC1O9-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ENQD_48EzkkRwFqRb7_J-2" target="bIkwEAlEce-EOL9KC1O9-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ENQD_48EzkkRwFqRb7_J-2" value="공항 내&lt;div&gt;편의시설&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="130" y="360" width="80" height="80" as="geometry" />
@@ -175,6 +184,15 @@
         </mxCell>
         <mxCell id="ENQD_48EzkkRwFqRb7_J-70" value="전화번호" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="585" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bIkwEAlEce-EOL9KC1O9-1" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;편의점&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="375" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bIkwEAlEce-EOL9KC1O9-2" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;식당&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="470" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bIkwEAlEce-EOL9KC1O9-3" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;은행&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="280" width="70" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
