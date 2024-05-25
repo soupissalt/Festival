@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-25T13:27:05.535Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="jAceCo0qQEXc4v0mWNaW" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-25T13:28:26.059Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="0EPZQ7o8mtpw9MvTReEa" version="24.4.8" type="github">
   <diagram name="페이지-1" id="geKBbEWEFcXSWuYg8slL">
-    <mxGraphModel dx="752" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="433" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -98,6 +98,15 @@
             <mxPoint x="670" y="720" as="targetPoint" />
             <Array as="points">
               <mxPoint x="660" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f2EloQLSNY7QdQ5oGlnk-120" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="f2EloQLSNY7QdQ5oGlnk-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="920" y="590" />
+              <mxPoint x="1090" y="520" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -222,6 +231,11 @@
         <mxCell id="f2EloQLSNY7QdQ5oGlnk-111" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;직원&lt;/font&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1210" y="940" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="f2EloQLSNY7QdQ5oGlnk-121" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="f2EloQLSNY7QdQ5oGlnk-113">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1260" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="f2EloQLSNY7QdQ5oGlnk-113" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;직원번호&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1230" y="750" width="80" height="80" as="geometry" />
         </mxCell>
@@ -230,6 +244,21 @@
         </mxCell>
         <mxCell id="f2EloQLSNY7QdQ5oGlnk-118" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;직원이름&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1470" y="930" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f2EloQLSNY7QdQ5oGlnk-124" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="f2EloQLSNY7QdQ5oGlnk-122" target="f2EloQLSNY7QdQ5oGlnk-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2EloQLSNY7QdQ5oGlnk-126" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="f2EloQLSNY7QdQ5oGlnk-122" target="f2EloQLSNY7QdQ5oGlnk-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2EloQLSNY7QdQ5oGlnk-122" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;비행 스케쥴&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f2EloQLSNY7QdQ5oGlnk-123" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;비행번호&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f2EloQLSNY7QdQ5oGlnk-125" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;비행일자&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="480" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
