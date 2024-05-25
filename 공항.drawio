@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-25T13:30:50.348Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="dqnewzIf6HlFfGZQhCEs" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-25T13:33:34.322Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="tP8VDt_A27LFTMEpQppc" version="24.4.8" type="github">
   <diagram name="페이지-1" id="geKBbEWEFcXSWuYg8slL">
-    <mxGraphModel dx="714" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="840" dy="972" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -278,11 +278,27 @@
         <mxCell id="f2EloQLSNY7QdQ5oGlnk-129" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;좌석&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="900" y="380" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="f2EloQLSNY7QdQ5oGlnk-137" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="f2EloQLSNY7QdQ5oGlnk-130" target="f2EloQLSNY7QdQ5oGlnk-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="f2EloQLSNY7QdQ5oGlnk-130" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;좌석번호&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="250" width="80" height="80" as="geometry" />
+          <mxGeometry x="920" y="220" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="f2EloQLSNY7QdQ5oGlnk-132" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;등급&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1060" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f2EloQLSNY7QdQ5oGlnk-135" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.993;exitY=0.74;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="f2EloQLSNY7QdQ5oGlnk-64" target="f2EloQLSNY7QdQ5oGlnk-136">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="520" as="sourcePoint" />
+            <mxPoint x="860" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="770" y="660" />
+              <mxPoint x="870" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f2EloQLSNY7QdQ5oGlnk-136" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;좌석&lt;/font&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="60" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
