@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-27T15:35:37.857Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="3mog1oeZUfaVuj8V1pki" version="24.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-27T15:39:55.252Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="_5TRE-8dCAAoCHYuGPhu" version="24.4.9" type="github">
   <diagram name="페이지-1" id="geKBbEWEFcXSWuYg8slL">
-    <mxGraphModel dx="2022" dy="1784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2420" dy="1989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,6 +23,11 @@
         <mxCell id="f2EloQLSNY7QdQ5oGlnk-72" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ENQD_48EzkkRwFqRb7_J-4" target="f2EloQLSNY7QdQ5oGlnk-73" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eqzc0ICFEftdVkqXuRuC-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ENQD_48EzkkRwFqRb7_J-4" target="Eqzc0ICFEftdVkqXuRuC-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-60" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ENQD_48EzkkRwFqRb7_J-4" value="공항" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
@@ -495,6 +500,24 @@
         </mxCell>
         <mxCell id="f2EloQLSNY7QdQ5oGlnk-205" value="분류" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-240" y="-50" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Eqzc0ICFEftdVkqXuRuC-1" value="게이트" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eqzc0ICFEftdVkqXuRuC-6" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Eqzc0ICFEftdVkqXuRuC-4" target="Eqzc0ICFEftdVkqXuRuC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eqzc0ICFEftdVkqXuRuC-8" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Eqzc0ICFEftdVkqXuRuC-4" target="Eqzc0ICFEftdVkqXuRuC-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eqzc0ICFEftdVkqXuRuC-4" value="화물" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eqzc0ICFEftdVkqXuRuC-5" value="화물 고유&lt;div&gt;번호&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="660" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Eqzc0ICFEftdVkqXuRuC-7" value="품목 분류" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="800" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
