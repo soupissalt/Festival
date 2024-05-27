@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-27T16:48:57.982Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="xRkAoNkQOKrcnaJGE3re" version="24.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-27T16:51:00.038Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="FPw1zBb5143WndI5TYjH" version="24.4.9" type="github">
   <diagram name="페이지-1" id="geKBbEWEFcXSWuYg8slL">
     <mxGraphModel dx="2514" dy="2037" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -562,6 +562,9 @@
         <mxCell id="f2EloQLSNY7QdQ5oGlnk-205" value="분류" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-240" y="-50" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="pXQHQFdOFT1HUWcYjrqf-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Eqzc0ICFEftdVkqXuRuC-1" target="pXQHQFdOFT1HUWcYjrqf-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Eqzc0ICFEftdVkqXuRuC-1" value="게이트" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="890" width="120" height="60" as="geometry" />
         </mxCell>
@@ -606,6 +609,9 @@
             <mxPoint x="-410" y="1040" as="targetPoint" />
             <mxPoint x="-380" y="980" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="pXQHQFdOFT1HUWcYjrqf-2" value="게이트번호" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="740" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
