@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-29T08:25:03.778Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Whale/3.26.244.21 Safari/537.36" etag="gfpHSf8BXjSax_ZKQDd1" version="24.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-29T08:29:41.760Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Whale/3.26.244.21 Safari/537.36" etag="XidDKWb1fT_l4qvD7Dj9" version="24.4.9" type="github">
   <diagram name="페이지-1" id="geKBbEWEFcXSWuYg8slL">
     <mxGraphModel dx="3327" dy="1857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1571,7 +1571,7 @@
             <mxPoint x="2100" y="1156" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_fmQQ23UDMU28dtSd_eu-58" value="분류" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+        <mxCell id="_fmQQ23UDMU28dtSd_eu-58" value="주요 업무" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="2030" y="1135" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_fmQQ23UDMU28dtSd_eu-68" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="_fmQQ23UDMU28dtSd_eu-70" target="OF6cTdFt37tzbmLH_Fab-63" edge="1">
@@ -1733,15 +1733,6 @@
         </mxCell>
         <mxCell id="_fmQQ23UDMU28dtSd_eu-115" value="년식" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="3671" y="490" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="_fmQQ23UDMU28dtSd_eu-117" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="_fmQQ23UDMU28dtSd_eu-5" target="_fmQQ23UDMU28dtSd_eu-118" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2030" y="1000" as="sourcePoint" />
-            <mxPoint x="2110" y="960" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_fmQQ23UDMU28dtSd_eu-118" value="사업자 번호//" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2060" y="940" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_fmQQ23UDMU28dtSd_eu-119" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="_fmQQ23UDMU28dtSd_eu-120" target="OaOm-PFCFOyFSG8GFty_-9" edge="1">
           <mxGeometry relative="1" as="geometry">
