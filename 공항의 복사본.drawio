@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-29T07:50:46.053Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Whale/3.26.244.21 Safari/537.36" etag="NAd77T5ddji8bKlcV9mr" version="24.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-29T07:55:59.099Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Whale/3.26.244.21 Safari/537.36" etag="HoAbjOVzoF4FHRyUL0NM" version="24.4.9" type="github">
   <diagram name="페이지-1" id="geKBbEWEFcXSWuYg8slL">
-    <mxGraphModel dx="3134" dy="1857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2534" dy="1578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1787,6 +1787,51 @@
         </mxCell>
         <mxCell id="hYKyRv-bCFhbF054Gj5i-2" value="이름" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="1850" y="990" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hYKyRv-bCFhbF054Gj5i-3" value="" style="endArrow=none;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="OF6cTdFt37tzbmLH_Fab-170" target="hYKyRv-bCFhbF054Gj5i-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3160" y="-490" as="sourcePoint" />
+            <mxPoint x="3120" y="-550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hYKyRv-bCFhbF054Gj5i-5" value="항공사명" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3004.999999999999" y="-570" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hYKyRv-bCFhbF054Gj5i-6" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="OF6cTdFt37tzbmLH_Fab-170" target="hYKyRv-bCFhbF054Gj5i-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3115" y="-430" as="sourcePoint" />
+            <mxPoint x="3130" y="-590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hYKyRv-bCFhbF054Gj5i-7" value="항공사 번호" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3079.999999999999" y="-610" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hYKyRv-bCFhbF054Gj5i-8" value="" style="endArrow=none;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="OF6cTdFt37tzbmLH_Fab-170" target="hYKyRv-bCFhbF054Gj5i-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3125" y="-420" as="sourcePoint" />
+            <mxPoint x="3190" y="-530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hYKyRv-bCFhbF054Gj5i-9" value="주소" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3159.999999999999" y="-570" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hYKyRv-bCFhbF054Gj5i-11" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="OF6cTdFt37tzbmLH_Fab-170" target="hYKyRv-bCFhbF054Gj5i-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3160" y="-490" as="sourcePoint" />
+            <mxPoint x="3320" y="-490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hYKyRv-bCFhbF054Gj5i-12" value="전화번호" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3239.999999999999" y="-540" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hYKyRv-bCFhbF054Gj5i-13" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OF6cTdFt37tzbmLH_Fab-170" target="hYKyRv-bCFhbF054Gj5i-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3160" y="-490" as="sourcePoint" />
+            <mxPoint x="3330" y="-440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hYKyRv-bCFhbF054Gj5i-14" value="국가(회사)//" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3279.999999999999" y="-490" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
