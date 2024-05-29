@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-29T06:14:26.141Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Whale/3.26.244.21 Safari/537.36" etag="16ZL37fv2QfTW7K_U1l1" version="24.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-29T06:25:24.014Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Whale/3.26.244.21 Safari/537.36" etag="f5pp3CYzEgjp2-4j88pM" version="24.4.9" type="github">
   <diagram name="페이지-1" id="geKBbEWEFcXSWuYg8slL">
     <mxGraphModel dx="2811" dy="1800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1454,13 +1454,13 @@
         <mxCell id="OaOm-PFCFOyFSG8GFty_-5" value="사용" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="1900" y="716.71" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OaOm-PFCFOyFSG8GFty_-7" value="Relationship" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+        <mxCell id="OaOm-PFCFOyFSG8GFty_-7" value="배포" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="2540" y="980" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OaOm-PFCFOyFSG8GFty_-9" value="공항" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="2500" y="1120" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_fmQQ23UDMU28dtSd_eu-3" value="Relationship" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="_fmQQ23UDMU28dtSd_eu-3" value="가짐" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="2240" y="1109" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_fmQQ23UDMU28dtSd_eu-5" value="편의시설" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
@@ -1519,6 +1519,87 @@
         </mxCell>
         <mxCell id="_fmQQ23UDMU28dtSd_eu-32" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="_fmQQ23UDMU28dtSd_eu-31">
           <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_fmQQ23UDMU28dtSd_eu-34" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OaOm-PFCFOyFSG8GFty_-5" target="_fmQQ23UDMU28dtSd_eu-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2070" y="760" as="sourcePoint" />
+            <mxPoint x="2230" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fmQQ23UDMU28dtSd_eu-35" value="M" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="_fmQQ23UDMU28dtSd_eu-34">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_fmQQ23UDMU28dtSd_eu-36" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="_fmQQ23UDMU28dtSd_eu-37" target="OF6cTdFt37tzbmLH_Fab-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2570" y="830" as="sourcePoint" />
+            <mxPoint x="2560" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fmQQ23UDMU28dtSd_eu-37" value="게이트 번호" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2481" y="740" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_fmQQ23UDMU28dtSd_eu-38" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.755;exitY=0.083;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_fmQQ23UDMU28dtSd_eu-40" target="OF6cTdFt37tzbmLH_Fab-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2570" y="860" as="sourcePoint" />
+            <mxPoint x="2560" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fmQQ23UDMU28dtSd_eu-40" value="게이트 고유 번호" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="2481" y="816.71" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_fmQQ23UDMU28dtSd_eu-42" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="_fmQQ23UDMU28dtSd_eu-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2600" y="1160" as="sourcePoint" />
+            <mxPoint x="2640" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fmQQ23UDMU28dtSd_eu-43" value="공항명" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2590" y="1170" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_fmQQ23UDMU28dtSd_eu-44" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OaOm-PFCFOyFSG8GFty_-9" target="_fmQQ23UDMU28dtSd_eu-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2610" y="1170" as="sourcePoint" />
+            <mxPoint x="2640" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fmQQ23UDMU28dtSd_eu-45" value="공항코드" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="2670" y="1119" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_fmQQ23UDMU28dtSd_eu-46" value="" style="endArrow=none;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="OaOm-PFCFOyFSG8GFty_-9" target="_fmQQ23UDMU28dtSd_eu-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2620" y="1180" as="sourcePoint" />
+            <mxPoint x="2510" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fmQQ23UDMU28dtSd_eu-47" value="국가명" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2460" y="1220" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_fmQQ23UDMU28dtSd_eu-48" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_fmQQ23UDMU28dtSd_eu-5" target="_fmQQ23UDMU28dtSd_eu-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1960" y="1110" as="sourcePoint" />
+            <mxPoint x="1970" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fmQQ23UDMU28dtSd_eu-50" value="편의시설 번호" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="1968" y="1090" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_fmQQ23UDMU28dtSd_eu-51" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_fmQQ23UDMU28dtSd_eu-5" target="_fmQQ23UDMU28dtSd_eu-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1880" y="1030" as="sourcePoint" />
+            <mxPoint x="1850" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fmQQ23UDMU28dtSd_eu-52" value="분류" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="1080" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_fmQQ23UDMU28dtSd_eu-53" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="_fmQQ23UDMU28dtSd_eu-5" target="_fmQQ23UDMU28dtSd_eu-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1980" y="1050" as="sourcePoint" />
+            <mxPoint x="1820" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fmQQ23UDMU28dtSd_eu-54" value="이용가능시설 등급" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="990" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
