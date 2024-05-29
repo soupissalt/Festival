@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-29T07:36:29.721Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Whale/3.26.244.21 Safari/537.36" etag="KZnL1UDZJ7u1BTCVmUrB" version="24.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-29T07:37:59.709Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Whale/3.26.244.21 Safari/537.36" etag="tVXAvySMYUZXZYhuhUAP" version="24.4.9" type="github">
   <diagram name="페이지-1" id="geKBbEWEFcXSWuYg8slL">
     <mxGraphModel dx="3011" dy="1800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1661,7 +1661,7 @@
         <mxCell id="_fmQQ23UDMU28dtSd_eu-84" value="N" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="_fmQQ23UDMU28dtSd_eu-83">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_fmQQ23UDMU28dtSd_eu-85" value="Relationship" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="_fmQQ23UDMU28dtSd_eu-85" value="수신" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="2630" y="-160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_fmQQ23UDMU28dtSd_eu-86" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_fmQQ23UDMU28dtSd_eu-85" target="OF6cTdFt37tzbmLH_Fab-170">
@@ -1673,7 +1673,7 @@
         <mxCell id="_fmQQ23UDMU28dtSd_eu-87" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="_fmQQ23UDMU28dtSd_eu-86">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_fmQQ23UDMU28dtSd_eu-88" value="Relationship" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="_fmQQ23UDMU28dtSd_eu-88" value="전달" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="2760" y="-90" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_fmQQ23UDMU28dtSd_eu-91" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="_fmQQ23UDMU28dtSd_eu-88" target="OF6cTdFt37tzbmLH_Fab-170">
@@ -1736,6 +1736,15 @@
         </mxCell>
         <mxCell id="_fmQQ23UDMU28dtSd_eu-104" value="담당" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="3470" y="-280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_fmQQ23UDMU28dtSd_eu-106" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="OF6cTdFt37tzbmLH_Fab-29" target="_fmQQ23UDMU28dtSd_eu-107">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3690" y="30" as="sourcePoint" />
+            <mxPoint x="3860" y="-180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fmQQ23UDMU28dtSd_eu-107" value="전화번호" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3809.999999999999" y="-200" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
