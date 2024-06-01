@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-01T11:46:44.146Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="gULiuibVJh3PnP_Ka2ZW" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-01T11:50:45.555Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="HudjZq1Axp4Ufwj5SdAK" version="24.4.13" type="github">
   <diagram name="페이지-1" id="geKBbEWEFcXSWuYg8slL">
-    <mxGraphModel dx="5111" dy="3056" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4428" dy="2671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1092,6 +1092,24 @@
         <mxCell id="OF6cTdFt37tzbmLH_Fab-95" value="운항 편명" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" parent="1" vertex="1">
           <mxGeometry x="3140" y="570" width="100" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="OF6cTdFt37tzbmLH_Fab-102" value="" style="endArrow=none;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="OF6cTdFt37tzbmLH_Fab-103" target="OF6cTdFt37tzbmLH_Fab-147" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2460" y="810" as="sourcePoint" />
+            <mxPoint x="2550" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OF6cTdFt37tzbmLH_Fab-103" value="예매날짜" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="2447.5" y="205.07" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OF6cTdFt37tzbmLH_Fab-104" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="OF6cTdFt37tzbmLH_Fab-105" target="OF6cTdFt37tzbmLH_Fab-147" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2350" y="810" as="sourcePoint" />
+            <mxPoint x="2350" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OF6cTdFt37tzbmLH_Fab-105" value="비용" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="2510" y="155.07" width="100" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="OF6cTdFt37tzbmLH_Fab-108" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="OF6cTdFt37tzbmLH_Fab-110" target="OF6cTdFt37tzbmLH_Fab-85" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2430" y="320" as="sourcePoint" />
@@ -1310,15 +1328,6 @@
         <mxCell id="OF6cTdFt37tzbmLH_Fab-162" value="표시" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="2360" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OF6cTdFt37tzbmLH_Fab-163" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="OF6cTdFt37tzbmLH_Fab-164" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2620" y="230" as="sourcePoint" />
-            <mxPoint x="2470" y="150" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="2470" y="150" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="OF6cTdFt37tzbmLH_Fab-164" value="좌석" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="2533" y="80" width="97" height="40" as="geometry" />
         </mxCell>
@@ -1342,9 +1351,6 @@
         </mxCell>
         <mxCell id="OF6cTdFt37tzbmLH_Fab-170" value="항공사" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="3015" y="-210" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="OaOm-PFCFOyFSG8GFty_-5" value="사용" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1920" y="720" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OaOm-PFCFOyFSG8GFty_-7" value="배정" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="2550" y="990" width="120" height="60" as="geometry" />
@@ -1394,15 +1400,6 @@
         <mxCell id="_fmQQ23UDMU28dtSd_eu-15" value="N" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" parent="_fmQQ23UDMU28dtSd_eu-14" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_fmQQ23UDMU28dtSd_eu-18" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="OaOm-PFCFOyFSG8GFty_-5" target="OF6cTdFt37tzbmLH_Fab-113" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2140" y="750" as="sourcePoint" />
-            <mxPoint x="2300" y="750" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_fmQQ23UDMU28dtSd_eu-19" value="N" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" parent="_fmQQ23UDMU28dtSd_eu-18" connectable="0" vertex="1">
-          <mxGeometry x="1" relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="_fmQQ23UDMU28dtSd_eu-31" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="OF6cTdFt37tzbmLH_Fab-49" target="OF6cTdFt37tzbmLH_Fab-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="3260" y="470" as="sourcePoint" />
@@ -1410,15 +1407,6 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_fmQQ23UDMU28dtSd_eu-32" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" parent="_fmQQ23UDMU28dtSd_eu-31" connectable="0" vertex="1">
-          <mxGeometry x="1" relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_fmQQ23UDMU28dtSd_eu-34" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="OaOm-PFCFOyFSG8GFty_-5" target="_fmQQ23UDMU28dtSd_eu-5" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2070" y="760" as="sourcePoint" />
-            <mxPoint x="2230" y="760" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_fmQQ23UDMU28dtSd_eu-35" value="M" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" parent="_fmQQ23UDMU28dtSd_eu-34" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_fmQQ23UDMU28dtSd_eu-38" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="_fmQQ23UDMU28dtSd_eu-40" target="OF6cTdFt37tzbmLH_Fab-53" edge="1">
@@ -1858,6 +1846,12 @@
         </mxCell>
         <mxCell id="ZF7oStrIcARMpWx6uAy8-9" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" parent="ZF7oStrIcARMpWx6uAy8-8" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u95ZD_rrpCc7HC7eoLxA-1" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="OF6cTdFt37tzbmLH_Fab-147" target="OF6cTdFt37tzbmLH_Fab-164">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2450" y="230" as="sourcePoint" />
+            <mxPoint x="2610" y="230" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
