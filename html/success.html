@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0"/>
+
+    <title>React App</title>
+    <style>
+
+    @font-face {
+      font-family: '박용준 투사회보체';
+      src: url("font/font.ttf");
+    }
+    @media (max-width: 800px) {
+
+      body{
+        background-image: url('img/mobile-background.png');
+      }
+
+      /* .envelope-pink {
+    } 
+    .envelope {
+    }*/
+
+    .envelope:before {
+      width: 110vw;
+      height: 80vw;
+      left: 50%;
+      top: -30vw;
+      transform: translateX(-50%);
+    }
+
+    .envelope:after {
+      width: 110vw;
+      height: 70vw;
+      left: 50%;
+      top: 10vw;
+      transform: translateX(-50%);
+    }
+
+    .front {
+      left: 110%;
+      top: 20vw;
+      transform: translateX(-50%);
+      border-right: 110vw solid #f8cdda;
+      border-top: 60vw solid transparent;
+    }
+
+    .front:before {
+      top: -60vw;
+      left: 0;
+      border-left: 110vw solid #f8cdda;
+      border-top: 60vw solid transparent;
+    }
+
+    .front:after {
+      border-bottom: 40vw solid #fbd9e2;
+      border-right: 55vw solid transparent;
+      border-left: 55vw solid transparent;
+      top: -40vw;
+      left: 0;
+    }
+
+    .writing-pad {
+    top: -8vw;
+    }
+
+    .paperf {
+      width: 100vw; 
+      height: 100vw;
+      top: 0vw;
+      left: 50%;
+      transform: translateX(-50%); 
+    }
+      
+    
+
+    .ok{
+      font-size: 5vw;
+      transform: translate(50%, 120%); 
+    }
+
+
+    .paperb {
+      width: 100vw; 
+      height: 100vw; 
+      top: 0vw;
+      left: 50%;
+      transform: translateX(-50%); 
+    }
+
+    .papertb {
+      width: 57vw;
+      height: 20vw;    
+      top: -9vw;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .papertf {
+      width: 55vw;
+      height: 18vw;   
+      top: -8vw;
+      transform: translateX(-50%);
+    }
+
+    .Letimg {
+        width: 49vw;  /* 이미지의 너비 설정 */
+        height: 20vw; /* 이미지의 높이 설정 */
+        transform: translate(51%, -8%);
+        z-index: 100;
+      }
+
+
+    .line {
+      width: 70vw;    
+      height: 1px;    
+      transform: translate(21%, 40vw);
+    }
+
+    .Every {
+      width: 80%;
+      transform: translate(14%, 40vw);
+      font-size: 2vw;
+    }
+
+    .heart {
+      width: 20vw;
+      height: 20vw;
+      transform: translate(80%, 270%) rotate(-20deg);
+    }
+
+    .heart::before,
+    .heart::after {
+      top: 0;
+      width: 15vw;
+      height: 20vw;
+      border-radius: 500px 500px 0 0;
+    }
+
+    .heart::before {
+      left: 15vw;
+      transform: rotate(-46deg);
+    }
+
+
+    .heart::after {
+      left: 0;
+      transform: rotate(46deg);
+      background: linear-gradient(44deg, transparent 10.2vw,  rgb(255, 209, 232)38%, rgb(255, 232, 241)60%);
+    }
+
+    .rectangle{
+      width: 3vw;
+      height: 5vw;
+      transform: translate(844%, 990%) rotate(-30deg);
+    }
+
+    .button {
+      width: 80%;
+      font-size: 5vw;
+      top: -1vw;
+      left: 75%;
+      transform: translate(-50%);
+    }
+
+      #arc-svg text {
+        font-size: 6vw;
+      }
+    }
+
+    /*-------------------------------------------------------------------------*/
+    /* pc */
+    @media screen and (min-width: 800px) {
+
+      body{
+        background-image: url('img/background.png');
+      }
+
+      .envelope-pink {
+        top: -5vw;
+        left: -2vw;
+    }  
+    
+    /* 
+    .envelope {
+    }*/
+
+
+    .envelope:before {
+      width: 55vw;
+      height: 40vw;
+      transform: translate(-50%, -30%);
+    }
+
+    .envelope:after {
+      width: 55vw;
+      height: 30vw;
+      transform: translate(-50%, 26%);
+    }
+
+    .front {
+      transform: translate(-50%, 27%);
+      border-right: 55vw solid #f8cdda;
+      border-top: 30vw solid transparent;
+    }
+
+    .front:before {
+      transform: translate(-0%, -100%);
+      border-left: 55vw solid #f8cdda;
+      border-top: 30vw solid transparent;
+    }
+
+    .front:after {
+      border-bottom: 20vw solid #fbd9e2;
+      border-right: 27.5vw solid transparent;
+      border-left: 27.5vw solid transparent;
+      transform: translate(-0%, -100%);
+    }
+
+    /* .writing-pad {
+    } */
+
+    .paperf {
+      width: 54vw; 
+      height: 54vw;
+      transform: translate(-50%, -20%); 
+    }
+
+    .ok{
+      font-size: 3vw;
+      transform: translate(5%, 105%);
+    }
+
+
+    .paperb {
+      width: 55vw; 
+      height: 55vw; 
+      transform: translate(-50%,-20%); 
+    }
+
+    .papertb {
+      width: 29vw;
+      height: 10vw;    
+      transform: translate(-50%,-153%);
+    }
+
+    .papertf {
+      width: 27.5vw;
+      height: 9vw;   
+      transform: translate(-50%,-160%);
+    }
+
+    .Letimg {
+        width: 30vw;  /* 이미지의 너비 설정 */
+        height: 10vw; /* 이미지의 높이 설정 */
+        transform: translate(40%, -0%);
+        z-index: 100;
+      }
+
+    .line {
+      width: 45vw;    
+      height: 0.15vw;
+      transform: translate(10%, 16000%);
+    }
+
+    .Every {
+      width: 50vw;
+      font-size: 1vw;
+      transform: translate(4%, 24vw);
+    }
+
+    /* .postit {
+    } */
+
+    .heart {
+      width: 15vw;
+      height: 15vw;
+      transform: translate(80%, 70%) rotate(-20deg);
+    }
+
+    .heart::before,
+    .heart::after {
+      top: 0;
+      width: 11.25vw;
+      height: 15vw;
+      border-radius: 500px 500px 0 0;
+    }
+
+    .heart::before {
+      left: 11.25vw;
+      transform: rotate(-46deg);
+    }
+
+
+    .heart::after {
+      left: 0;
+      transform: rotate(46deg);background: linear-gradient(44deg, transparent 8vw,  rgb(255, 209, 232)38%, rgb(255, 232, 241)60%);
+    }
+
+    .rectangle{
+      width: 3vw;
+      height: 4.5vw;
+      transform: translate(630%, 160%) rotate(-30deg);
+    }
+
+    .button {
+      width: 15vw;
+      font-size: 4vw;
+      top: -1vw;
+      left: 75%;
+      transform: translate(-50%);
+    }
+
+      #arc-svg text {
+        font-size: 6vw;
+      }
+    }
+
+    body {
+      font-family: "Nanum Myeongjo", serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%; /* 화면의 너비를 100%로 설정 */
+      height: 100vh; /* 화면의 높이는 화면의 높이를 따라가도록 설정 */
+      margin: 0;
+      padding: 0;
+      
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      overflow: hidden;
+    }
+    /* ------------------------------------------------------ */
+    /* .arc-container {
+      display: flex;
+      justify-content: left;
+      align-items: left;
+      width: 200%;
+      
+    }
+
+    #arc-svg {
+      width: 80%;
+      height: auto;
+    }
+
+    text {
+      fill: rgb(210,81,133);
+      font-weight: bold;
+      letter-spacing: -0.5px;
+    } 
+
+    .Let {
+      position: absolute;
+      text-align: center;
+      z-index: 998;
+      color: rgb(210,81,133);
+      display: inline-block;
+      width: 80%;
+      white-space: nowrap;
+      overflow: hidden;
+      font-family: "Nanum Myeongjo", serif;
+      font-weight: bolder;
+    }*/
+
+    /* ------------------------------------------------------ */
+
+    .envelope-pink {
+      position: relative;
+      
+    }
+
+    .envelope {
+      position: relative;
+      filter: drop-shadow(0 0 8px rgba(0,0,0,.4));
+    }
+
+    .envelope:before {
+      content: "";
+      position: absolute;
+      background-color: #f8cdda;
+      clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      border-radius: 0 15px 0 0;
+    }
+
+    .envelope:after {
+      content: "";
+      position: absolute;
+      background-color: #f8cdda;
+    }
+
+    .front {
+      position: absolute;
+      width: 0;
+      height: 0;
+      z-index: 4;
+      filter: drop-shadow(0 0 10px rgba(0,0,0,.2));
+    }
+
+    .front:before {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+    }
+
+    .front:after {
+      width: 0;
+      height: 0;
+      position: absolute;
+      content: "";
+    }
+
+    .writing-pad {
+      position: relative;
+      filter: drop-shadow(0 0 8px rgba(0,0,0,.3));
+    }
+
+    .paperf {
+      background-color: rgba(255, 237, 241);
+      clip-path: polygon(15% 1%, 85% 1%, 85% 6%, 90% 6%, 90% 80%, 10% 80%, 10% 6%, 15% 6%);
+      position: absolute;
+      z-index: 10;
+    }
+      
+    
+
+    .ok{
+      position: absolute;
+      text-align: center;
+      z-index: 999;
+      color: rgb(58,25,16);
+      display: inline-block;
+      width: 50vw;
+      white-space: nowrap;
+      overflow: hidden;
+      font-family: "Nanum Myeongjo", serif;
+      font-weight: bolder;
+    }
+
+
+    .paperb {
+      background-color: rgba(249, 197, 211);
+      clip-path: polygon(14% 0%, 86% 0%, 86% 5%, 91% 5%, 91% 80%, 9% 80%, 9% 5%, 14% 5%);
+      position: absolute;
+      
+    }
+
+    .papertb {
+      background-color: #f9c5d3;
+      position: absolute;
+      border-radius: 80% / 80%;
+    }
+
+    .papertf {  
+      background-color: rgba(255, 237, 241);
+      position: absolute;
+      border-radius: 80% / 80%;
+    }
+
+    .Letimg{
+      position: absolute;
+      background-image: url('img/Let.png'); /* 이미지 파일 경로 */
+      background-size: cover; /* 이미지가 컨테이너를 꽉 채우도록 설정 */
+      background-position: center; /* 이미지가 중앙에 위치하도록 설정 */
+      z-index: 888s;
+    }
+
+
+    .line {
+      position: absolute;
+      background-color: rgb(212,86,137); 
+      z-index: 894;
+    }
+
+    .Every {
+      position: absolute;
+      text-align: center;
+      color: rgb(210,81,133);
+      display: inline-block;
+      white-space: nowrap;
+      overflow: hidden;
+      font-style: normal;
+      font-family: "Nanum Myeongjo", serif;
+      z-index: 850;
+    }
+
+    .postit{
+      cursor: pointer; /* 마우스 커서 인식 */
+    }
+
+    .heart {
+      position: absolute;
+      background-color: transparent;
+      z-index: 999;
+    }
+
+    .heart::before,
+    .heart::after {
+      content: "";
+      position: absolute;
+      
+    }
+
+    .heart::before {
+      transform-origin: 0 100%;
+      box-shadow: 4px 8px 4px rgba(239, 165, 189);
+      background: rgb(255, 232, 241);
+    }
+
+
+    .heart::after {
+      transform-origin: 100% 100%;
+      
+      box-shadow: 8px -4px 4px rgba(239, 165, 189);
+      z-index: 850;
+    }
+
+    .rectangle{
+      position: absolute;
+      clip-path: polygon(0 0, 0 100%, 5% 95%, 10% 100%, 15% 95%, 20% 100%, 25% 95%, 30% 100%, 35% 95%, 40% 100%, 45% 95%, 50% 100%, 55% 95%, 60% 100%, 65% 95%, 70% 100%, 75% 95%, 80% 100%, 85% 95%, 90% 100%, 95% 95%, 100% 100%, 100% 0, 95% 5%, 90% 0, 85% 5%, 80% 0, 75% 5%, 70% 0, 65% 5%, 60% 0, 55% 5%, 50% 0, 45% 5%, 40% 0, 34% 5%, 30% 0, 25% 5%, 20% 0, 15% 5%, 10% 0, 6% 5%);
+      background-color: rgba(237, 166, 188, 0.5);  /* 배경 색상 및 투명도 */
+      z-index: 10000;
+    }
+
+    .button {
+      position: absolute;
+      text-align: center;
+      z-index: 999;
+      color: rgb(87, 25, 58);
+      display: inline-block;
+      white-space: nowrap;
+      overflow: hidden;
+      font-weight: normal;
+      font-family: "박용준 투사회보체";
+    }
+
+
+    </style>
+  </head>
+  <body>
+     <!-- 편지봉투 -->
+  <div class="envelope-pink">
+    <div class="envelope"></div>
+    <div class="front">
+      
+    </div> 
+    <div class="writing-pad">
+      <div class="paperb"></div>
+      <div class="papertb"></div>
+      <div class="paperf">
+        <div class="Letimg"></div>
+        <div class="line"></div>
+        <h3 class="ok">제출이 성공적으로<br> 완료되었습니다.</h3>
+        <p class="Every">Every time with you, my heart feels full and I can't stop smiling.<br>I think you may be the one for me.</p>
+      </div> 
+      <div class="papertf">
+        <!-- <div class="arc-container">
+          <svg id="arc-svg" viewBox="0 0 400 200" preserveAspectRatio="xMidYMid meet">
+            <defs>
+              <path id="arc-path" d="M 50 150 A 150 80 0 0 1 350 150" />
+            </defs>
+            <text transform="translate(-75, -20)" style="font-size: 5.5vw;">
+              <textPath href="#arc-path" startOffset="23%">
+                Let's fall in love
+              </textPath>
+            </text>
+          </svg>
+        </div> -->
+      </div> 
+    </div>
+  </div>
+
+  <div class="postit">
+    <div class="heart">
+      <h4 class="button"><a href="/" style="text-decoration-line: none;color: rgb(87, 25, 58);">완료</a></h4>
+    </div>
+    <div class="rectangle"></div>
+  </div> 
+  </body>
+</html>

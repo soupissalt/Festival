@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="color-scheme" content="light only" />
+    <meta name="supported-color-schemes" content="light" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+    <style>
+        @font-face {
+      font-family: '박용준 투사회보체';
+      src: url("font/font.ttf");
+    }
+        :root {
+            color-scheme: light only;
+            --pico-background-color: #fff;
+            --pico-color: #373c44;
+            --pico-text-selection-color: rgba(2, 154, 232, 0.25);
+            --pico-muted-color: #646b79;
+            --pico-muted-border-color: #e7eaf0;
+            --pico-primary: #0172ad;
+            --pico-primary-background: #0172ad;
+            --pico-primary-border: var(--pico-primary-background);
+            --pico-primary-underline: rgba(1, 114, 173, 0.5);
+            --pico-primary-hover: #015887;
+            --pico-primary-hover-background: #02659a;
+            --pico-primary-hover-border: var(--pico-primary-hover-background);
+            --pico-primary-hover-underline: var(--pico-primary-hover);
+            --pico-primary-focus: rgba(2, 154, 232, 0.5);
+            --pico-primary-inverse: #fff;
+            --pico-secondary: #5d6b89;
+            --pico-secondary-background: #525f7a;
+            --pico-secondary-border: var(--pico-secondary-background);
+            --pico-secondary-underline: rgba(93, 107, 137, 0.5);
+            --pico-secondary-hover: #48536b;
+            --pico-secondary-hover-background: #48536b;
+            --pico-secondary-hover-border: var(--pico-secondary-hover-background);
+            --pico-secondary-hover-underline: var(--pico-secondary-hover);
+            --pico-secondary-focus: rgba(93, 107, 137, 0.25);
+            --pico-secondary-inverse: #fff;
+            --pico-contrast: #181c25;
+            --pico-contrast-background: #181c25;
+            --pico-contrast-border: var(--pico-contrast-background);
+            --pico-contrast-underline: rgba(24, 28, 37, 0.5);
+            --pico-contrast-hover: #000;
+            --pico-contrast-hover-background: #000;
+            --pico-contrast-hover-border: var(--pico-contrast-hover-background);
+            --pico-contrast-hover-underline: var(--pico-secondary-hover);
+            --pico-contrast-focus: rgba(93, 107, 137, 0.25);
+            --pico-contrast-inverse: #fff;
+            --pico-box-shadow: 0.0145rem 0.029rem 0.174rem rgba(129, 145, 181, 0.01698), 0.0335rem 0.067rem 0.402rem rgba(129, 145, 181, 0.024), 0.0625rem 0.125rem 0.75rem rgba(129, 145, 181, 0.03), 0.1125rem 0.225rem 1.35rem rgba(129, 145, 181, 0.036), 0.2085rem 0.417rem 2.502rem rgba(129, 145, 181, 0.04302), 0.5rem 1rem 6rem rgba(129, 145, 181, 0.06), 0 0 0 0.0625rem rgba(129, 145, 181, 0.015);
+            --pico-h1-color: #2d3138;
+            --pico-h2-color: #373c44;
+            --pico-h3-color: #424751;
+            --pico-h4-color: #4d535e;
+            --pico-h5-color: #5c6370;
+            --pico-h6-color: #646b79;
+            --pico-mark-background-color: #fde7c0;
+            --pico-mark-color: #0f1114;
+            --pico-ins-color: #1d6a54;
+            --pico-del-color: #883935;
+            --pico-blockquote-border-color: var(--pico-muted-border-color);
+            --pico-blockquote-footer-color: var(--pico-muted-color);
+            --pico-button-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+            --pico-button-hover-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            background-image: url("pictures/back.png");
+
+            background-repeat: no-repeat;
+
+            background-position: center;
+
+            background-size: cover;
+
+            color: black;
+            
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+            
+        }
+
+        h3 {
+            text-align: center;
+
+            margin-top: 10%;
+        }
+
+        form {
+            margin-left: 5%;
+
+            margin-right: 5%;
+
+            margin-bottom: 15%;
+        }
+
+        .inside-color {
+            background-color: rgba(255, 255, 255, 0.4);
+            border-radius: 10px;
+        }
+    </style>
+
+    <title>영화 취향 설문조사</title>
+
+</head>
+
+<body>
+    <header>
+
+        <h3 style="font-family: '박용준 투사회보체'; font-weight: normal; font-size: 6vw;">영화 보러 갈래요?</h3>
+
+    </header>
+
+
+
+    <form action="/handlingForm" method="post">
+
+        <fieldset>
+
+            <legend></legend>
+
+            <label>
+
+                이름
+
+                <input class="inside-color" name="name" placeholder="홍길동" type="text" maxlength="20" required />
+
+            </label>
+
+            <label>
+
+                연락처
+
+                <input class="inside-color" id="phone_num" name="phone" placeholder="01012345678 (하이픈 없이 입력 바랍니다.)"
+                    type="tel" pattern="010[0-9]{4}[0-9]{4}" required />
+
+            </label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>성별</legend>
+            <input type="radio" id="man" name="gender" value="1" />
+            <label htmlFor="man">남자</label>
+            <input type="radio" id="woman" name="gender" value="2" />
+            <label htmlFor="woman">여자</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>상대방 성별</legend>
+            <input type="radio" id="man" name="others_gender" value="1" />
+            <label htmlFor="man">남자</label>
+            <input type="radio" id="woman" name="others_gender" value="2" />
+            <label htmlFor="woman">여자</label>
+            <input type="radio" id="idc" name="others_gender" value="3" />
+            <label htmlFor="idc">상관없음</label>
+        </fieldset>
+
+        <fieldset><legend>나이 입력(5살 이하로 차이가 날 때만 매칭됩니다.)</legend>
+            <input class="inside-color" type="number" id="age" name="age" placeholder="나이" aria-label="age" min="1"
+                required />
+        </fieldset>
+
+        <fieldset>
+
+            <legend>가장 좋아하는 영화 장르는?</legend>
+
+
+
+            <label>
+
+                <input type="radio" name="movie_type" value="0" required>
+
+                로맨스
+
+            </label>
+
+            <label>
+
+                <input type="radio" name="movie_type" value="16" required>
+
+                애니메이션
+            </label>
+
+            <label>
+
+                <input type="radio" name="movie_type" value="32" required>
+
+                공포/스릴러
+
+            </label>
+
+            <label>
+
+                <input type="radio" name="movie_type" value="48" required>
+
+                추리
+
+            </label>
+
+            <label>
+
+                <input type="radio" name="movie_type" value="64" required>
+
+                SF/판타지
+
+            </label>
+
+            <label>
+
+                <input type="radio" name="movie_type" value="80" required>
+
+                누아르/범죄
+
+            </label>
+
+            <label>
+
+                <input type="radio" name="movie_type" value="100" required>
+
+                액션
+
+            </label>
+
+        </fieldset>
+
+
+
+        <fieldset>
+
+            <legend>팝콘 취향</legend>
+
+            <label>
+
+                <input type="radio" name="popcorn_type" value="0" required>
+
+                달콤팝콘이 좋다.
+
+            </label>
+
+            <label>
+
+                <input type="radio" name="popcorn_type" value="66" required>
+
+                고소한 팝콘이 좋다.
+
+            </label>
+
+            <label>
+
+                <input type="radio" name="popcorn_type" value="33" required>
+
+                어니언, 치즈 팝콘이 좋다.
+
+            </label>
+
+            <label>
+
+                <input type="radio" name="popcorn_type" value="100" required>
+
+                팝콘을 좋아하지 않는다.
+
+            </label>
+
+        </fieldset>
+
+
+
+        <fieldset>
+
+            <legend>결말</legend>
+
+            <label>
+
+                <input type="radio" name="movie_ending" value="0" required>
+
+                열린결말이 좋다.
+
+            </label>
+
+            <label>
+
+                <input type="radio" name="movie_ending" value="100" required>
+
+                닫힌결말이 좋다.
+
+            </label>
+
+            <label>
+
+                <input type="radio" name="movie_ending" value="50" required>
+
+                상관없음.
+
+            </label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>상대에게 전할 말</legend>
+            <textarea class="inside-color" name="comment" maxlength="300" placeholder="상대방에게 하고싶은 말(최대 300자)"
+                required></textarea>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>개인정보제공 동의</legend>
+
+            <label>
+
+                <input id="agree_button" type="checkbox" name="personal_agree" required>
+
+                이상의 정보를 [Adventurer]에 제공하는 것에 동의합니다.
+
+            </label>
+
+            <em style="font-size: 0.8em;">개인정보는 가장 비슷한 영화취향을 가진 사람을 찾는데 사용되며, 2024년 5월23일 이후 안전하게 폐기됩니다.</em>
+            <br>
+            <em style="font-size: 0.8em;">단, 축제에 참여한 모든 사람들을 대상으로 비슷한 사람을 찾습니다.<br>협성대학교 학생이 아닌 사람에게도 전송 될 수 있습니다.<br>매칭이 안되는 경우가 있습니다. 양해 부탁드립니다.</em>
+            
+            <p style="margin-top: 1.5em">참여해주셔서 감사합니다!</p>
+
+            <input id="submit_button" type="submit" value="제 출" disabled />
+
+        </fieldset>
+
+    </form>
+
+
+    <script>
+         // 강제로 라이트 모드를 적용하는 함수
+         function forceLightMode() {
+            document.documentElement.setAttribute('data-theme', 'light');
+        }
+
+        document.addEventListener('DOMContentLoaded', (event) => {
+            forceLightMode();
+        });
+
+        document.addEventListener('DOMContentLoaded', (event) => {
+            forceLightMode();
+        });
+        // 전화번호 입력시 제한 걸기
+        document.getElementById("phone_num").addEventListener("input", function (e) {
+            e.target.value = e.target.value.replace(/\D/g, "").slice(0, 11);
+        });
+
+        // 나이 입력 제한 걸기
+        document.getElementById("age").addEventListener("input", function (e) {
+            e.target.value = e.target.value.slice(0, 3);
+        });
+
+        // 체크박스 체크 유무에 따른 disabled 적용
+        window.onload = function () {
+            document.getElementById('agree_button').onchange = function () {
+                document.getElementById('submit_button').disabled = !this.checked;
+            };
+        };
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0"/>
+
+    <title>영화 보러 갈래요?</title>
+    <style>
+
+    @font-face {
+      font-family: '박용준 투사회보체';
+      src: url("font/font.ttf");
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100vmin; /* 화면의 너비를 100px로 고정 */
+      height: 100vmax; /* 화면의 높이는 화면의 높이를 따라가도록 설정 */
+      overflow-x: hidden;  /* 가로 스크롤 제거 */
+      overflow-y: hidden; /*  세로 스크롤 제거 */
+      margin: 0;
+      padding: 0;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    /* 모바일 화면 */
+    @media screen and (max-width:800px){
+
+      body{
+        background-image: url('img/mobile-background.png');
+      }
+      
+      .message {
+      font-size: 7vmax; 
+      }
+      
+      .envelope-pink {
+        top: 31vw;
+      }    
+      
+      .postit{
+        top: 130vw;
+        left: 62vw;
+      }
+      /*.envelope {
+      
+      } */
+
+      .envelope:before {
+        width:70vmax;
+        height:40vmax;
+        transform: translate(16%,10%) rotate(10deg);
+      }
+
+      .envelope:after {
+        width:70vmax;
+        height:40vmax;
+        transform: translate(11%,60%) rotate(10deg);
+      }
+
+      .front {
+        border-right:70vmax solid #f8cdda;
+        border-top: 40vmax solid transparent;
+        border-bottom: 0vw solid transparent;
+        transform: translate(11%,60%) rotate(10deg);
+      }
+
+      .front:before {
+        border-left: 70vmax solid #f8cdda;
+        border-top: 40vmax solid transparent;
+        border-bottom: 0vw solid transparent;
+        transform: translate(0%,-100%);
+      }
+
+      .front:after {
+        border-bottom: 25vmax solid #fbd9e2;
+        border-right:35vmax solid transparent;
+        border-left: 35vmax solid transparent;
+        transform: translate(-0%,-100%) 
+      }
+
+      .Adventur{
+        width: 60vmax;
+        transform: translate(8%, -230%);
+        font-size: 8vw;
+      }
+
+      .paperf {
+        width: 66vmax; 
+        height: 66vmax;
+        transform: translate(20%, -10%) rotate(10deg); 
+      }
+
+      .paperb {
+        width: 67vmax; 
+        height: 67vmax; 
+        transform: translate(19%, -10%) rotate(10deg); 
+      }
+
+      .papertb {
+        width: 38vmax;
+        height: 14vmax;    
+        transform: translate(86%, -90%) rotate(10deg);
+      }
+
+      .papertf {
+        width: 36vmax;
+        height: 12vmax;   
+        transform: translate(94%, -95%) rotate(10deg);
+      }
+
+      .QR {
+        width: 24vmax;  /* 이미지의 너비 설정 */
+        height: 24vmax; /* 이미지의 높이 설정 */
+        transform: translate(88%, 49%);
+      }
+
+      .line{
+        transform: translate(30%, 19000%);
+        height: 0.2vmax;  
+        width: 41vmax;    
+      }
+
+      .Letimg {
+        width: 36vmax;  /* 이미지의 너비 설정 */
+        height: 15vmax; /* 이미지의 높이 설정 */
+        transform: translate(40%,-5%);
+        z-index: 10000;
+      }
+
+      .Every{
+        width: 60vmax;
+        transform: translate(5%, 37vmax);
+        font-size: 1.2vmax;
+      }
+         
+      .heart {
+        width: 100px;
+        height: 90px;
+        transform: translate(-400%, -100%) rotate(-14deg);
+      }
+
+      .postit{
+        top: 60vmax;
+        left: 25vmax;
+      }
+
+      .heart::before,
+      .heart::after {
+        top: 0;
+        width: 20vmax;
+        height: 30vmax;
+      }
+
+      .heart::before {
+        left:20vmax;
+      }
+
+      .heart::after {
+        left: 0;
+      }
+
+      .rectangle {
+        position: absolute;
+        width: 5vmax;  /* 가로 크기 */
+        height: 8vmax;  /* 세로 크기 */
+        transform: translate(350%, -30%) rotate(-10deg);
+      }
+      
+      .adventurer {
+        transform: translate(8%, 70%);
+        width: 35vmax;
+        font-size: 5vw;
+        font-family: "박용준 투사회보체";
+      }
+
+      .form{
+        transform: translate(25%, 11vmax);
+        width: 27vmax;
+        font-size: 4vw;
+        font-family: "박용준 투사회보체";
+        font-weight: normal;
+      }
+      
+    }
+
+    /* --------------------------------------------------------------------------------------- */
+    /* pc화면 */
+    @media screen and (min-width: 800px) {
+
+      body{
+        background-image: url('img/background.png');
+      }
+
+      .message {
+        font-size: 5vmin; 
+      }
+
+      .envelope-pink {
+        top: -21vw;
+      }    
+
+      
+      .postit{
+        top: -10vw;
+        left: 12vw;
+      }
+
+    /* 
+      .envelope {
+      
+      } */
+
+      .envelope:before {
+        width:45vmax;
+        height:30vmax;
+        transform: translate(79%,-40%) rotate(11deg);
+      }
+
+      .envelope:after {
+        width:45vmax;
+        height:25vmax;
+        transform: translate(74%,10%) rotate(11deg);
+      }
+
+      .front {
+        border-right: 45vmax solid #f8cdda;
+        border-top: 25vmax solid transparent;
+        border-bottom: 0vw solid transparent;
+        transform: translate(74%,10%) rotate(11deg);
+      }
+
+      .front:before {
+        border-left: 45vmax solid #f8cdda;
+        border-top: 25vmax solid transparent;
+        border-bottom: 0vw solid transparent;
+        transform: translate(-0%,-100%);
+      }
+
+      .front:after {
+        border-bottom: 15vmax solid #fbd9e2;
+        border-right:22.5vmax solid transparent;
+        border-left: 22.5vmax solid transparent;
+        transform: translate(-0%,-100%) 
+      }
+
+      .Adventur{
+        width: 30vmax;
+        transform: translate(28%, -230%);
+        font-size: 3vw;
+      }
+
+      .paperf {
+        width: 43vmax; 
+        height: 43vmax;
+        transform: translate(83%, -30%) rotate(11deg); 
+      }
+
+      .paperb {
+        width: 43.5vmax; 
+        height: 43.5vmax; 
+        transform: translate(81.5%, -30%) rotate(11deg); 
+      }
+
+      .papertb {
+        width: 25vmax;
+        height: 11vmax;    
+        transform: translate(193%, -157%) rotate(11deg);
+      }
+
+      .papertf {
+        width: 24vmax;
+        height: 10vmax;   
+        transform: translate(203%, -165%) rotate(11deg);
+      }
+
+      .QR {
+        width: 14vw;  /* 이미지의 너비 설정 */
+        height: 14vw; /* 이미지의 높이 설정 */
+        transform: translate(100%, 50%);
+      }
+
+      .line{
+        transform: translate(28%, 23vw);
+        height: 0.1vmax;  
+        width: 28vmax;    
+      }
+
+      .Letimg {
+        width: 25vw;  /* 이미지의 너비 설정 */
+        height: 8vw; /* 이미지의 높이 설정 */
+        transform: translate(32%,-2%);
+        z-index: 10000;
+      }
+
+      .Every{
+        width: 40vw;
+        transform: translate(4%, 22.3vw);
+        font-size: 0.8vw;
+      }
+         
+      .heart {
+        width: 100px;
+        height: 90px;
+        transform: translate(-400%, -100%) rotate(-14deg);
+      }
+
+      .heart::before,
+      .heart::after {
+        top: 0;
+        width: 15vmax;
+        height: 22vmax;
+      }
+
+      .heart::before {
+        left:15vmax;
+      }
+
+      .heart::after {
+        left: 0;
+        
+      }
+
+      .rectangle {
+        position: absolute;
+        width: 3vmax;  /* 가로 크기 */
+        height: 5vmax;  /* 세로 크기 */
+        transform: translate(450%, -30%) rotate(-10deg);
+      }
+      
+      .adventurer {
+        transform: translate(10%, 40%);
+        width: 25vmax;
+        font-size: 2.2vmax;
+      }
+      .form{
+        transform: translate(25%, 500%);
+        width: 20vmax;
+        font-size: 1.5vmax;
+      }
+    }
+
+    /* --------------------------------------------------------------------------------------- */
+    .message {
+      font-family: "Nanum Myeongjo", serif;
+      text-align: center;
+      width: 100%;
+      position: fixed;
+      top: 10%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 9999; 
+      font-weight: bold;
+      text-shadow: 0px 0px 10px rgb(255, 255, 255);
+    }
+
+   .envelope-pink {
+      position: relative;
+      cursor: pointer;      /* 마우스 커서 인식 */
+    }    
+    
+   .envelope {
+      position: absolute;
+      filter: drop-shadow(0 0 8px rgba(0,0,0,.4));
+    }
+
+    .envelope:before {
+      content:"";
+      position: absolute;
+      background-color: #f8cdda;
+      clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      border-radius: 0 15px 0 0;
+    }
+
+    .envelope:after {
+      content:"";
+      position: absolute;
+      background-color: #f8cdda;
+    }
+
+    .front {
+      position: absolute;
+      z-index:4;
+      filter: drop-shadow(0 0 10px rgba(0,0,0,.2));
+      width:0;
+      height:0;
+    }
+
+    .front:before {
+      content:"";
+      position: absolute;
+      width:0;
+      height:0;
+    }
+
+    .front:after {
+      width:0;
+      height:0;
+      position: absolute;
+      content:"";
+    }
+
+    .Adventur{
+      position: absolute;
+      text-align: center;
+      z-index: 998;
+      color: rgb(87, 25, 58);
+      display: inline-block;
+      white-space: nowrap;
+      overflow: hidden;
+      font-family: "Dongle", sans-serif;
+      z-index: 888;
+    }
+      
+    .writing-pad{
+      top: -3vw;
+      left: 0.2vw;
+      position: relative;
+      filter: drop-shadow(0 0 8px rgba(0,0,0,.3));
+    }
+
+    .paperf {
+      background-color: rgba(255, 237, 241);
+      clip-path: polygon(15% 1%, 85% 1%, 85% 6%, 90% 6%, 90% 80%, 10% 80%, 10% 6%, 15% 6%);
+      position: absolute;
+      z-index: 3;
+    }
+
+    .paperb {
+      background-color: rgba(249, 197, 211);
+      clip-path: polygon(14% 0%, 86% 0%, 86% 5%, 91% 5%, 91% 80%, 9% 80%, 9% 5%, 14% 5%);
+      position: absolute;
+    }
+
+
+    .papertb {
+      background-color: #f9c5d3;
+      position: absolute;
+      border-radius: 80% / 80%;
+      z-index: -20;
+    }
+
+    .papertf {
+      background-color: rgba(255, 237, 241);
+      position: absolute;
+      border-radius: 80% / 80%;
+      z-index: 2;
+    }
+
+    .QR {
+      position: absolute;
+      background-image: url('img/QR.png'); /* 이미지 파일 경로 */
+      background-size: cover; /* 이미지가 컨테이너를 꽉 채우도록 설정 */
+      background-position: center; /* 이미지가 중앙에 위치하도록 설정 */
+      z-index: 950;
+    }
+
+    .Letimg{
+      position: absolute;
+      background-image: url('img/Let.png'); /* 이미지 파일 경로 */
+      background-size: cover; /* 이미지가 컨테이너를 꽉 채우도록 설정 */
+      background-position: center; /* 이미지가 중앙에 위치하도록 설정 */
+      z-index: 888s;
+    }
+
+    .line{
+      position: absolute; 
+      background-color: rgb(212,86,137);
+      z-index: 894;
+    }
+
+    .Every{
+      position: absolute;
+      text-align: center;
+      color: rgb(210,81,133);
+      display: inline-block;
+      white-space: nowrap;
+      overflow: hidden;
+      font-family: "Nanum Myeongjo", serif;
+      z-index: 850;
+    }
+
+    .postit{
+      z-index:5;
+      position: relative;
+      margin: 100px auto 0;  /* 중앙 정렬 */
+      cursor: pointer;
+    }
+
+    .heart {
+      position: absolute;
+      background-color: transparent;
+    }
+
+    .heart::before,
+    .heart::after {
+      content: "";
+      position: absolute;
+      background: rgb(255, 232, 241);
+      border-radius: 500px 500px 0 0;
+    }
+
+    .heart::before {
+      transform: rotate(-46deg);
+      transform-origin: 0 100%;
+      box-shadow: 5px 15px 5px rgba(239, 165, 189);
+    }
+
+    .heart::after {
+      transform: rotate(46deg);
+      transform-origin: 100% 100%;
+      background: linear-gradient(44deg, transparent 10.5vmax,  rgb(255, 209, 232)38%, rgb(255, 232, 241)60%);
+      box-shadow: 15px -5px 5px rgba(239, 165, 189);
+    }
+
+    .rectangle {
+      position: absolute;
+      clip-path: polygon(0 0, 0 100%, 5% 95%, 10% 100%, 15% 95%, 20% 100%, 25% 95%, 30% 100%, 35% 95%, 40% 100%, 45% 95%, 50% 100%, 55% 95%, 60% 100%, 65% 95%, 70% 100%, 75% 95%, 80% 100%, 85% 95%, 90% 100%, 95% 95%, 100% 100%, 100% 0, 95% 5%, 90% 0, 85% 5%, 80% 0, 75% 5%, 70% 0, 65% 5%, 60% 0, 55% 5%, 50% 0, 45% 5%, 40% 0, 34% 5%, 30% 0, 25% 5%, 20% 0, 15% 5%, 10% 0, 6% 5%);
+      background-color: rgba(237, 166, 188, 0.5);  /* 배경 색상 및 투명도 */
+      z-index: 888;
+    }
+    
+    .adventurer {
+      position: absolute;
+      text-align: center;
+      z-index: 998;
+      color: rgb(87, 25, 58);
+      font-family: "박용준 투사회보체";
+      
+    }
+    .form{
+      position: absolute;
+      text-align: center;
+      z-index: 100;
+      color: rgb(87, 25, 58);
+      display: inline-block;
+      white-space: nowrap;
+      overflow: hidden;
+      font-family: "박용준 투사회보체";
+      font-weight: normal;
+    }
+    
+    </style>
+    
+  </head>
+  <body>
+    <div class="message">함께<br>영화 보러 갈래요?</div>
+    
+
+
+  
+    <!-- 편지봉투 -->
+  <div class="envelope-pink">        <!-- 편지봉투 -->
+    <div class="envelope"></div>    <!-- 뒤 -->
+    <div class="front">
+      <h4 class="Adventur">Adventurer</h4>
+    </div>       <!-- 앞 -->
+    <div class="writing-pad">
+        <div class="paperb"></div>
+        <div class="papertb"></div>
+        <div class="paperf">
+            <div class="Letimg"></div>
+            <div class="QR"></div>
+            <div class="line"></div>
+            <h6 class="Every" >Every time with you, my heart feels full and I can't stop smiling.<br>I think you may be the one for me.</h6>
+        </div> 
+        <div class="papertf">
+            <!-- <div class="arc-container">
+            <svg id="arc-svg">
+                <defs>
+                    <path id="arc-path" d="M 60 150 A 100 50 0 0 1 340 200" />
+                </defs>
+                <text>
+                    <textPath href="#arc-path">
+                        Let's fall in love
+                    </textPath>
+                </text>
+                </svg>
+            </div> -->
+        </div> 
+    </div>
+  </div>
+
+  <div class="postit">
+    <div class="heart">
+      <h4 class="adventurer">어드벤쳐러와 함께<br>운명의 상대를 찾아봐요.</h4>
+      <h6 class="form">form.Adventurer</h6>
+      <div class="rectangle"></div>
+    </div>
+    
+  </div>
+
+  </body>
+</html>
